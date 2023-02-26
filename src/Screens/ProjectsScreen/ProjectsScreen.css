@@ -1,0 +1,85 @@
+.project-main-container {
+  position: relative;
+  background-color: #DDDBCB;
+}
+
+.about-nav-bar > div > .main-nav-projects {
+  font-size: 7.5rem;
+}
+
+.animate-in-up {
+  animation: 0.6s cubic-bezier(0.69, 0.02, 0.24, 0.96) 0.4s up-in forwards;
+}
+
+@keyframes up-in {
+  0% {
+  transform: translateY(-100%);
+}
+100% {
+  transform: translateY(0);
+}
+}
+
+.projects-container-1 {
+  display: flex;
+  flex-direction: column;
+
+  color: white;
+  text-align: left;
+  padding: 2rem 2rem 2rem 3rem; 
+}
+
+.projects-container-1 > span {
+  font-family: Montserrat;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+.projects-container-1 > p {
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.projects-list {
+  margin-bottom: 2rem;
+}
+
+.projects-list-card {
+  color: white;
+  font-family: DubielPlain;
+  padding: 1rem 3rem 0.5rem 3rem;
+  text-align: left;
+}
+
+.projects-list-card > .project-title {
+  cursor: pointer;
+  max-width: fit-content;
+  font-size: 6rem;
+  font-weight: 400rem;
+
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.project-title > a {
+  text-decoration: none;
+  color: white;
+}
+
+.projects-list-card > p {
+  font-size: 1rem;
+  font-family: Montserrat;
+  max-width: 80%;
+}
+
+.projects-list-card > .project-title:hover {
+  margin-left: 1rem;
+  -webkit-transform: skewX(-13deg);
+  -moz-transform: skewX(-13deg);
+  -o-transform: skewX(-13deg);
+  transform: skewX(-13deg);
+}

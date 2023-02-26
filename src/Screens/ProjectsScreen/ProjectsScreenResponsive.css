@@ -1,0 +1,21 @@
+@media screen
+and (max-width : 650px) {
+    .about-nav-bar > div > .main-nav-projects {
+        font-size: 3.5rem;
+    }
+
+    .projects-list-card > .project-title {
+        font-size: 3.5rem;
+    }
+
+    .project-title > a {
+        display: inline-block;
+        line-height: 1;
+        font-size: 3.5rem;
+    }
+
+    .projects-list-card > p {
+        max-width: 100%;
+    }
+
+}

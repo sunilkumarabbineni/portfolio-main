@@ -1,0 +1,83 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media screen
+and (max-width : 590px) {
+    .div-main-container {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .div-secondary-container {
+        height:100vh;
+        width: 100%;
+    }
+
+    .div-inside-container {
+        height: 93%;
+    }
+
+    .nav-bar {
+        height: 7%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar-items {
+        width: 80%;
+        height: 100%;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .bi-linkedin:hover + .linkedin-text, .bi-twitter:hover + .twitter-text, .bi-github:hover + .github-text {
+        opacity: 0;
+    }
+
+    /* .left-grid > div > span {
+        font-size: 20vw;
+    } */
+
+    .right-grid-content {
+        padding: 4rem;
+        align-items: center;
+    }
+    /* .text-details-container > div > h1 {
+        font-size: 5vw;
+    } */
+
+    .left-grid {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-grid > div {
+        width: 60%;
+    }
+
+
+
+}
+
+@media screen
+and (max-width : 669px) {
+    .left-grid > div > span {
+        font-size: 20vw;
+    }
+
+    .text-details-container > div > h1 {
+        font-size: 5.2vw;
+    }
+
+    .text-details-container {
+        width: 98%;
+    }
+
+    .text-details-container > div > h3 {
+        font-size: 3.8vw;
+    }
+
+    .programming-syntax {
+        font-size: 4.5vw;
+    }
+}

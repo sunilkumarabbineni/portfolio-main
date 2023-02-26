@@ -1,0 +1,26 @@
+@media screen
+and (max-width : 650px) {
+    * {
+        font-size: 13px;
+    }
+
+    .about-nav-bar > div > .main-nav {
+        font-family: Dubiel;
+        font-size: 4rem;
+        display: block;
+        transform: translateY(150%);
+
+    }
+
+    .about-secondary-container {
+        width: 80%;
+    }
+
+}
+
+/* @media screen
+and (orientation: landscape) {
+    .about-nav-bar > div > .main-nav {
+        font-size: 4rem;
+    }
+} */

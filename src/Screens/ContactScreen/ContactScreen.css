@@ -1,0 +1,83 @@
+.contact-screen-container {
+    height: 100vh;
+}
+
+.about-nav-bar > div > .contact-nav {
+    font-size: 8rem;
+}
+
+.contact-screen-container > div {
+    text-align: left;
+    max-width: 50%;
+    font-size: 1rem;
+    height: 100vh;
+    color: white;
+    font-family: Montserrat;
+    padding: 0rem 3rem 0.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    overflow: hidden;
+}
+
+.contact-screen-container > div > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+.contact-screen-container > div > div > span {
+    font-size: 15rem;
+    font-family: DubielPlain;
+    letter-spacing: 0.3rem;
+    transform: translateY(150%);
+}
+
+.contact-screen-container > div > div > p {
+    line-height: 1.8rem;
+    transform: translateY(150%);
+}
+
+.contact-screen-container > div > div > p > a {
+    color: white;
+}
+
+.animate-hello-contact {
+    animation: 0.6s cubic-bezier(0.69, 0.02, 0.24, 0.96) 1.5s down-in-hello forwards;
+}
+
+.animate-p-contact {
+    animation: 0.6s cubic-bezier(0.69, 0.02, 0.24, 0.96) 1s down-in-hello forwards;
+}
+
+@keyframes down-in-hello {
+  0% {
+  transform: translateY(150%);
+}
+100% {
+  transform: translateY(0);
+}
+}
+
+@media screen
+and (max-width : 650px) {
+    .contact-screen-container > div > div > span {
+        font-size: 9rem;
+    }
+
+    .contact-screen-container > div {
+        padding: 4rem 3rem 0.5rem 2rem;
+    }
+
+    .about-nav-bar > div > .contact-nav {
+        font-size: 4rem;
+    }
+
+    .contact-screen-container > div {
+        max-width: 100%;
+        justify-content:start;
+    }
+}
