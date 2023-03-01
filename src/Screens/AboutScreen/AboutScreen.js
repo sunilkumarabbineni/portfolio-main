@@ -2,7 +2,7 @@ import React from 'react'
 import './AboutScreen.css'
 import './AboutScreenResponsive.css'
 import { useNavigate } from 'react-router-dom';
-import resume from '../../Resources/SRR Resume.pdf'
+import resume from '../../Resources/ASK Resume.pdf'
 
 function AboutScreen() {
     const description = ["Welcome to my portfolio! A software developer and designer with a deep passion for solving problems and using technology to make a positive impact. \n\nWith a focus on front-end web development and Android mobile application development, I have a desire to create visually appealing and user-friendly digital experiences. ", "\n\"Design is not just what it looks like and feels like. Design is how it works.\" - Steve Jobs", "\nThe above quote speaks to my approach in every project I take on. I bring a solutions-focused mindset to real-world problems, striving to find the ideal balance between functionality and design in everything I create. As someone who has always been drawn to the world of coding and programming, I am constantly seeking new opportunities to learn and grow as a developer. Whether I am working on a project for a client or just tinkering with new technologies on my own, I am always eager to dive into the next challenge and explore the endless possibilities of what can be built with code.", "\nWhether you're looking to hire a developer or just want to learn more about my work, I hope my portfolio provides a glimpse into my passion for solving problems and using technology to make a positive impact.", "\nLet's build something amazing together!"]
